@@ -40,6 +40,7 @@ html, body {
 
 .colored {
     color: #ffffff;
+    min-height: 70px;
 }
 
 .photo {
@@ -159,11 +160,11 @@ html, body {
         padding-bottom: 24px;
         width: 100%;
     }
-    
+
     .td-prj-card {
         width: 100%;
     }
-    
+
     .prj-title {
         text-align: center;
     }
@@ -263,6 +264,31 @@ html, body {
     transform: translateY(-4px);
     transition: 0.3s;
 }
+
+.link-4 {
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 3px rgba(140, 255, 0, 0.3);
+    border: 1px solid rgb(140, 255, 0);
+    color: rgb(140, 255, 0);
+    font-family: sans-serif;
+    outline: none;
+    cursor: pointer;
+    font-size: 14pt;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.link-4:hover {
+    background-color: rgba(140, 255, 0, 0.3);
+    box-shadow: 0 5px 5px rgba(140, 255, 0, 0.4);
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
+
 
 .prj-tags {
     display: flex;
