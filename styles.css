@@ -327,6 +327,13 @@ html, body {
 .badge {
     cursor: pointer;
     margin: 8px;
+    transition: 0.3s;
+}
+
+.badge:hover {
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
+    transform: translateY(-4px);
+    transition: 0.3s;
 }
 
 .copyright {
@@ -342,4 +349,12 @@ html, body {
 
 .tip-highlight2 {
     color: #51a3e0;
+}
+
+.title-regular {
+    font-family: sans-serif;
+}
+
+.invisible {
+    opacity: 0;
 }

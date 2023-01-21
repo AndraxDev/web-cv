@@ -3,6 +3,7 @@
 <head>
     <title>AndraxDev</title>
     <meta  charset = "utf-8">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu+Mono" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "styles.css">
     <link rel = "icon" href = "icon.png">
@@ -14,8 +15,7 @@
             <img src = "photo.png" class = "photo">
             <h1 class = "header-text">Hello, I'm AndraxDev</h1>
             <h1 class = "header-text">&nbsp;</h1>
-            <h1 class = "colored header-text" id = "typed">[please enable javascript to display this page correctly]</h1>
-            <h1 class = "header-text">&nbsp;</h1>
+            <span><h1 class = "colored header-text" id = "typed">[please enable javascript to display this page correctly]</h1><h1 class = "invisible header-text">█</h1></span>
             <a href = "https://github.com/AndraxDev"><button class = "link-1">Github</button></a>
             &nbsp;
             <a href = "https://www.linkedin.com/in/andraxdev/"><button class = "link-2">Linked In</button></a>
@@ -26,7 +26,7 @@
             <h1 class = "header-text">&nbsp;</h1>
         </div>
         <div class = "projects">
-            <h1 class = "prjs-title header-text">My skills</h1>
+            <h1 class = "title-regular prjs-title header-text">My skills</h1>
             <h1 class = "prjs-title header-text">&nbsp;</h1>
             <div class = "badges">
                 <img onclick = "javascript:searchTag('lang:Java')" class = "badge" src="https://img.shields.io/badge/-Java-E02424?style=for-the-badge&logo=java&logoColor=white">
@@ -40,10 +40,10 @@
                 <img onclick = "javascript:searchTag('lang:PHP')" class = "badge" src="https://img.shields.io/badge/-PHP-40C79E?style=for-the-badge&logo=php&logoColor=white">
                 <img onclick = "javascript:searchTag('lang:Python')" class = "badge" src="https://img.shields.io/badge/-Python-24D0F2?style=for-the-badge&logo=python&logoColor=white">
             </div>
-            <h1 class = "prjs-title header-text">&nbsp;</h1>
+            <h1 class = "title-regular prjs-title header-text">&nbsp;</h1>
         </div>
         <div class = "projects">
-            <h1 class = "prjs-title header-text">I'm using</h1>
+            <h1 class = "title-regular prjs-title header-text">I'm using</h1>
             <h1 class = "prjs-title header-text">&nbsp;</h1>
             <div class = "badges">
                 <img onclick = "javascript:searchTag('tag:Android')" class = "badge" src="https://img.shields.io/badge/-Android%20SDK-3DDC84?style=for-the-badge&logo=android&logoColor=white">
@@ -55,7 +55,7 @@
             <h1 class = "prjs-title header-text">&nbsp;</h1>
         </div>
         <div class = "projects">
-            <h1 class = "prjs-title header-text">To make quality projects I'm using</h1>
+            <h1 class = "title-regular prjs-title header-text">To make quality projects I'm using</h1>
             <h1 class = "prjs-title header-text">&nbsp;</h1>
             <div class = "badges">
                 <img class = "badge" src="https://img.shields.io/badge/-Postman-F54242?style=for-the-badge&logo=postman&logoColor=white">
@@ -65,13 +65,13 @@
         </div>
         <div class = "projects">
             <div>
-                <h2 class = "prj-title header-text">ðŸ’¡ Pro tip</h2>
+                <h2 class = "prj-title header-text">💡 Pro tip</h2>
                 <h1 class = "prjs-title header-text">&nbsp;</h1>
-                <span class = "prj-desc">&nbsp;&nbsp;Click the badges to view related projects</span>
+                <span class = "prj-desc">&nbsp;&nbsp;Click the badges to view related projects.</span>
             </div>
         </div>
         <div class = "projects" id = "q">
-            <h1 class = "prjs-title header-text">My projects</h1>
+            <h1 class = "title-regular prjs-title header-text">My projects</h1>
             <h1 class = "prjs-title header-text">&nbsp;</h1>
             <div class = "search">
                 <input class = "search-input" id = "query" placeholder = "Project name/tag/programming language">
@@ -80,13 +80,15 @@
             <h1 class = "prjs-title header-text">&nbsp;</h1>
             <div class = "project">
                 <div>
-                    <h2 class = "prj-title header-text">ðŸ’¡ Pro tip</h2>
+                    <h2 class = "prj-title header-text">💡 Pro tip</h2>
                     <h1 class = "prjs-title header-text">&nbsp;</h1>
-                    <span class = "prj-desc">&nbsp;&nbsp;Use <b class = "tip-highlight">tag:<b class = "tip-highlight2">TAG</b></b> to search by tags</span>
+                    <span class = "prj-desc">&nbsp;&nbsp;Use <b class = "tip-highlight">tag:<b class = "tip-highlight2">TAG</b></b> to search by tags.</span>
                     <br>
-                    <span class = "prj-desc">&nbsp;&nbsp;Use <b class = "tip-highlight">lang:<b class = "tip-highlight2">LANGUAGE</b></b> to search by language</span>
+                    <span class = "prj-desc">&nbsp;&nbsp;Use <b class = "tip-highlight">lang:<b class = "tip-highlight2">LANGUAGE</b></b> to search by language.</span>
+                    <br><br>
+                    <span class = "prj-desc">&nbsp;&nbsp;Query case does not matter.</span>
                     <br>
-                    <span class = "prj-desc">&nbsp;&nbsp;Query case does not matter</span>
+                    <span class = "prj-desc">&nbsp;&nbsp;Leave searchbar empty and click "Search" to show all projects.</span>
                 </div>
             </div>
 
@@ -100,7 +102,7 @@
 
             </div>
         </div>
-        <p class = "copyright">Â© 2023 Dmytro Ostapenko. All rights reserved.</p>
+        <p class = "copyright">© 2023 Dmytro Ostapenko. All rights reserved.</p>
         <h1 class = "header-text">&nbsp;</h1>
     </div>
 </div>
@@ -110,7 +112,7 @@
     var len = string.length;
     var i = 0;
     var c = 0;
-    var cursor = "â–ˆ";
+    var cursor = "█";
     var empty = "&nbsp;";
 
     function type() {

@@ -121,7 +121,7 @@
     },
     {
         "title": "My CV",
-        "desc": "Newtify blog engine",
+        "desc": "My webpage",
         "icon": "./icon.png",
         "cover": "./cv/cover.png",
         "github": "https://github.com/AndraxDev/web-cv",
