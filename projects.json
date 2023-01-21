@@ -8,7 +8,7 @@
         "play": "https://play.google.com/store/apps/details?id=com.teslasoft.ivisit",
         "link": "",
         "lang": ["Java", "Kotlin"],
-        "tags": ["Android", "Java", "Kotlin", "travel", "mobile"],
+        "tags": ["Android", "Java", "Kotlin", "travel", "mobile", "Firebase", "Google cloud"],
         "lng": []
     },
     {
@@ -20,12 +20,12 @@
         "play": "https://play.google.com/store/apps/details?id=com.teslasoft.libraries.support",
         "link": "",
         "lang": ["Java"],
-        "tags": ["Android", "Java", "security", "mobile"],
+        "tags": ["Android", "Java", "security", "mobile", "Play integrity", "Google cloud", "JWT"],
         "lng": []
     },
     {
         "title": "Teslasoft SmartCard",
-        "desc": "Teslasoft SmartCard - an authentication technology that allow you to login in to your account via NFC cards or tags. Also you can useany NFC chips to authenticate.",
+        "desc": "Teslasoft SmartCard - an authentication technology that enables you to login in to your account via NFC cards or tags. Also you can use any NFC chips to authenticate.",
         "icon": "./smartcard/icon.png",
         "cover": "./smartcard/cover.png",
         "github": "",
@@ -49,7 +49,7 @@
     },
     {
         "title": "AES256 tools",
-        "desc": "An app that allow you to encrypt/decrypt messages by using AES256.",
+        "desc": "This app enables you to encrypt/decrypt messages by using AES256.",
         "icon": "./aes/icon.png",
         "cover": "./aes/cover.png",
         "github": "https://github.com/AndraxDev/aes-tools",
@@ -124,7 +124,7 @@
         "desc": "Newtify blog engine",
         "icon": "./icon.png",
         "cover": "./cv/cover.png",
-        "github": "",
+        "github": "https://github.com/AndraxDev/web-cv",
         "play": "",
         "link": "",
         "lang": ["HTML", "JS", "CSS", "PHP"],

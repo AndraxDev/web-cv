@@ -335,3 +335,11 @@ html, body {
     color: #fff;
     user-select: none;
 }
+
+.tip-highlight {
+    color: #8ee087;
+}
+
+.tip-highlight2 {
+    color: #51a3e0;
+}

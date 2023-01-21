@@ -42,16 +42,56 @@
             </div>
             <h1 class = "prjs-title header-text">&nbsp;</h1>
         </div>
+        <div class = "projects">
+            <h1 class = "prjs-title header-text">I'm using</h1>
+            <h1 class = "prjs-title header-text">&nbsp;</h1>
+            <div class = "badges">
+                <img onclick = "javascript:searchTag('tag:Android')" class = "badge" src="https://img.shields.io/badge/-Android%20SDK-3DDC84?style=for-the-badge&logo=android&logoColor=white">
+                <img onclick = "javascript:searchTag('tag:JWT')" class = "badge" src="https://img.shields.io/badge/-JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white">
+                <img onclick = "javascript:searchTag('tag:Firebase')" class = "badge" src="https://img.shields.io/badge/-Firebase-FCDF03?style=for-the-badge&logo=firebase&logoColor=black">
+                <img onclick = "javascript:searchTag('tag:Google Cloud')" class = "badge" src="https://img.shields.io/badge/-Google%20Cloud-03A5FC?style=for-the-badge&logo=Google&logoColor=white">
+                <img onclick = "javascript:searchTag('tag:Play integrity')" class = "badge" src="https://img.shields.io/badge/-Play%20Integrity%20API-4EA373?style=for-the-badge&logo=Google+play&logoColor=white">
+            </div>
+            <h1 class = "prjs-title header-text">&nbsp;</h1>
+        </div>
+        <div class = "projects">
+            <h1 class = "prjs-title header-text">To make quality projects I'm using</h1>
+            <h1 class = "prjs-title header-text">&nbsp;</h1>
+            <div class = "badges">
+                <img class = "badge" src="https://img.shields.io/badge/-Postman-F54242?style=for-the-badge&logo=postman&logoColor=white">
+                <img class = "badge" src="https://img.shields.io/badge/-Sonarlint-6042F5?style=for-the-badge&logo=sonarlint&logoColor=white">
+            </div>
+            <h1 class = "prjs-title header-text">&nbsp;</h1>
+        </div>
+        <div class = "projects">
+            <div>
+                <h2 class = "prj-title header-text">ðŸ’¡ Pro tip</h2>
+                <h1 class = "prjs-title header-text">&nbsp;</h1>
+                <span class = "prj-desc">&nbsp;&nbsp;Click the badges to view related projects</span>
+            </div>
+        </div>
         <div class = "projects" id = "q">
             <h1 class = "prjs-title header-text">My projects</h1>
             <h1 class = "prjs-title header-text">&nbsp;</h1>
             <div class = "search">
-                <input class = "search-input" id = "query" placeholder = "Search projects">
+                <input class = "search-input" id = "query" placeholder = "Project name/tag/programming language">
                 <button class = "search-btn" id = "search" onclick = "javascript:search()">Search</button>
             </div>
             <h1 class = "prjs-title header-text">&nbsp;</h1>
+            <div class = "project">
+                <div>
+                    <h2 class = "prj-title header-text">ðŸ’¡ Pro tip</h2>
+                    <h1 class = "prjs-title header-text">&nbsp;</h1>
+                    <span class = "prj-desc">&nbsp;&nbsp;Use <b class = "tip-highlight">tag:<b class = "tip-highlight2">TAG</b></b> to search by tags</span>
+                    <br>
+                    <span class = "prj-desc">&nbsp;&nbsp;Use <b class = "tip-highlight">lang:<b class = "tip-highlight2">LANGUAGE</b></b> to search by language</span>
+                    <br>
+                    <span class = "prj-desc">&nbsp;&nbsp;Query case does not matter</span>
+                </div>
+            </div>
 
             <div class = "not-found" id = "err">
+                <h1 class = "prjs-title header-text">&nbsp;</h1>
                 <h1 class = "err header-text" id = "err-text">Nothing was found</h1>
                 <h1 class = "prjs-title header-text">&nbsp;</h1>
             </div>
@@ -60,7 +100,7 @@
 
             </div>
         </div>
-        <p class = "copyright">© 2023 Dmytro Ostapenko. All rights reserved.</p>
+        <p class = "copyright">Â© 2023 Dmytro Ostapenko. All rights reserved.</p>
         <h1 class = "header-text">&nbsp;</h1>
     </div>
 </div>
@@ -70,7 +110,7 @@
     var len = string.length;
     var i = 0;
     var c = 0;
-    var cursor = "█";
+    var cursor = "â–ˆ";
     var empty = "&nbsp;";
 
     function type() {
