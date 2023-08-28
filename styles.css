@@ -3,6 +3,18 @@ html, body {
     margin: 0;
     background-color: #1c1a21;
     font-family: sans-serif;
+    user-select: none;
+}
+
+a {
+    color: #d4b8f5;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #eee0ff;
+    transition: 0.3s;
 }
 
 ::-webkit-scrollbar{width:12px}
@@ -21,12 +33,13 @@ html, body {
     font-family: monospace;
     color: #e4d9ff;
     user-select: none;
+    font-size: 24pt;
 }
 
 .background {
     width: 100%;
     min-height: 100vh;
-    background-image: url(./background.png);
+    background-image: url(./background.webp);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,6 +63,7 @@ html, body {
     background-color: #312c3d;
     margin: 64px;
     border: 5px solid #ffaa00;
+    user-select: none;
 }
 
 .projects {
@@ -160,11 +174,11 @@ html, body {
         padding-bottom: 24px;
         width: 100%;
     }
-
+    
     .td-prj-card {
         width: 100%;
     }
-
+    
     .prj-title {
         text-align: center;
     }
@@ -289,6 +303,29 @@ html, body {
     transition: 0.3s;
 }
 
+.link-5 {
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 3px rgba(197, 143, 255, 0.3);
+    border: 1px solid rgb(197, 143, 255);
+    color: rgb(197, 143, 255);
+    font-family: sans-serif;
+    outline: none;
+    cursor: pointer;
+    font-size: 14pt;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.link-5:hover {
+    background-color: rgba(197, 143, 255, 0.3);
+    box-shadow: 0 5px 5px rgba(197, 143, 255, 0.4);
+    transform: translateY(-4px);
+    transition: 0.3s;
+}
 
 .prj-tags {
     display: flex;
@@ -357,4 +394,12 @@ html, body {
 
 .invisible {
     opacity: 0;
+}
+
+.typewriter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    user-select: none;
+    justify-content: center;
 }
