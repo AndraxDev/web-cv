@@ -1,15 +1,15 @@
 [
     {
-	"title": "Coming soon",
-	"desc": "Coming soon",
-	"icon": "./litigo/logo.svg",
-	"cover": "./litigo/cover.webp",
-	"github": "",
-	"play": "",
-	"link": "",
-	"lang": ["Python", "JavaScript"],
-	"tags": ["AI", "ReactJS", "Flask", "ChatGPT", "GPT", "chatbot", "documents"],
-	"lng": []
+        "title": "Coming soon",
+        "desc": "Coming soon",
+        "icon": "./litigo/logo.svg",
+        "cover": "./litigo/cover.webp",
+        "github": "",
+        "play": "",
+        "link": "",
+        "lang": ["Python", "JavaScript"],
+        "tags": ["AI", "ReactJS", "Flask", "ChatGPT", "GPT", "chatbot", "documents"],
+        "lng": []
     },
     {
         "title": "CMCChat",

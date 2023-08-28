@@ -38,6 +38,7 @@ if ($query != "") {
         }
         
         $out = json_encode($array);
+	header('Content-Type: application/json; charset=utf-8');
         echo($out);
     } else if (strpos(strtolower($query), "tag:") !== false) {
         $n = str_replace("tag:", "", $query);
@@ -60,6 +61,7 @@ if ($query != "") {
         }
         
         $out = json_encode($array);
+	header('Content-Type: application/json; charset=utf-8');
         echo($out);
     } else {
         $ds = json_decode($database);
@@ -96,9 +98,11 @@ if ($query != "") {
         }
         
         $out = json_encode($array);
+	header('Content-Type: application/json; charset=utf-8');
         echo($out);
     }
 } else {
+    header('Content-Type: application/json; charset=utf-8');
     echo($database);
 }
 
