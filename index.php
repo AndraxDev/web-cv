@@ -74,6 +74,8 @@
                         <img loading="lazy" alt = "Google Cloud" onclick = "javascript:searchTag('tag:Google Cloud')" width = "147" height = "28" class = "badge" src="https://img.shields.io/badge/-Google%20Cloud-03A5FC?style=for-the-badge&logo=Google&logoColor=white">
                         <img loading="lazy" alt = "Play Integrity" onclick = "javascript:searchTag('tag:Play Integrity')" width = "186" height = "28" class = "badge" src="https://img.shields.io/badge/-Play%20Integrity%20API-4EA373?style=for-the-badge&logo=Google+play&logoColor=white">
                         <img loading="lazy" alt = "ChatGPT" onclick = "javascript:searchTag('tag:GPT')" width = "110" height = "28" class = "badge" src="https://img.shields.io/badge/-ChatGPT-00C98D?style=for-the-badge&logo=openai&logoColor=white">
+			<img loading="lazy" alt = "Flask" onclick = "javascript:searchTag('tag:Flask')" width = "70" height = "28" class = "badge" src="https://img.shields.io/badge/-Flask-2D4E69?style=for-the-badge&logo=flask&logoColor=white">
+		    	<img loading="lazy" alt = "ReactJS" onclick = "javascript:searchTag('tag:ReactJS')" width = "80" height = "28" class = "badge" src="https://img.shields.io/badge/-React-2E93FF?style=for-the-badge&logo=react&logoColor=white">
 		    </div>
                     <h1 class = "prjs-title header-text">&nbsp;</h1>
                 </div>

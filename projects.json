@@ -1,5 +1,17 @@
 [
     {
+	"title": "Coming soon",
+	"desc": "Coming soon",
+	"icon": "./litigo/logo.svg",
+	"cover": "./litigo/cover.webp",
+	"github": "",
+	"play": "",
+	"link": "",
+	"lang": ["Python", "JavaScript"],
+	"tags": ["AI", "ReactJS", "ChatGPT", "GPT", "chatbot", "documents"],
+	"lng": []
+    },
+    {
         "title": "CMCChat",
         "desc": "CMCChat - your digital companion.",
         "icon": "./cmc/icon.webp",
