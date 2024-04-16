@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /*.tf$
+
+Sitemap: https://andrax.dev/sitemap.xml

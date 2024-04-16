@@ -39,6 +39,13 @@ a:hover {
 .background {
     width: 100%;
     min-height: 100vh;
+<<<<<<< HEAD
+=======
+    background-image: url(./background.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+>>>>>>> 68f7e7f7420011b083e43ad27f45605c208ee029
 }
 
 .content {
@@ -165,11 +172,11 @@ a:hover {
         padding-bottom: 24px;
         width: 100%;
     }
-
+    
     .td-prj-card {
         width: 100%;
     }
-
+    
     .prj-title {
         text-align: center;
     }

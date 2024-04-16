@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef07c659-cdee-4b05-83c4-4f768d0b1f22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/admin.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/authenticator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/css/styles.css.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/css/styles.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/hash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/jwt_rs384.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aes/icon.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bestpa/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmc/icon.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate_204.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id/icon.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ivisit/icon.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/karel/icon.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/litigo/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mnist/icon.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newtify/icon.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smartcard/icon.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/speakgpt/icon.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6013a00b362253c64368d6eebc50ea2131754e2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6013a00b362253c64368d6eebc50ea2131754e2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/web-cv.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aes/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ivisit/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/karel/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newtify/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo.webp" beforeDir="false" afterPath="$PROJECT_DIR$/photo.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartcard/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2KbVT3QKAeZKv5lL8XYvJ3CVrkv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Merging main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Github/web-cv",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\web-cv" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.235" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef07c659-cdee-4b05-83c4-4f768d0b1f22" name="Changes" comment="" />
+      <created>1674243273765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674243273765</updated>
+      <workItem from="1674243277698" duration="214000" />
+      <workItem from="1674312561810" duration="112000" />
+      <workItem from="1674315816278" duration="635000" />
+      <workItem from="1680035604762" duration="25000" />
+      <workItem from="1693231050026" duration="712000" />
+      <workItem from="1693472766591" duration="82000" />
+      <workItem from="1713287004539" duration="2671000" />
+      <workItem from="1713291445633" duration="158000" />
+      <workItem from="1713295038683" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
